@@ -193,12 +193,24 @@ box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 #firstfilter a {
     display: inline-block;
     padding: 0 20px;
-    color: #03396c;
+    color: #2c2c2c;
     text-decoration: none;
     font-weight: 300;
     font-size: 1.5em;
   }
   #firstfilter a:hover {
-    color: #011f4b;
+    color: #000000;
+    font-weight: 700;
+  }
+  #secondfilter a {
+    display: inline-block;
+    padding: 0 20px;
+    color: #2c2c2c;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1em;
+  }
+  #secondfilter a:hover {
+    color: #000000;
     font-weight: 700;
   }
