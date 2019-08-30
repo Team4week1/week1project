@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product</title>
+    <link rel="shortcut icon" href="./assets/media/jeans.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="product.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
+      integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y"
+      crossorigin="anonymous"
+    />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i"
+      rel="stylesheet"
+    />
+    </head>
+<body>
+<header id="header">
+    <div class="inner">
+        <a href="./index.html" class="logo">Apparel.id</a>
+        <nav id="nav">
+        <a href="index.html">Home</a>
+        <a href="product.html">Product</a>
+        <a href="registrasi.html">Contact Us</a>
+        </nav>
+    </div>
+</header>
+<div class="container-fluid contentwrap">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+            <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+            <address>
+                <strong>Twitter, Inc.</strong><br>
+                795 Folsom Ave, Suite 600<br>
+                San Francisco, CA 94107<br>
+                <abbr title="Phone">
+                    P:</abbr>
+                (123) 456-7890
+            </address>
+            <address>
+                <strong>Full Name</strong><br>
+                <a href="mailto:#">first.last@example.com</a>
+            </address>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<div id="myfooter">
+        <div class="inner">
+            <div class="column" id="myfooter1">
+                <a href="./index.html" class="logo">Apparel.id</a>
+                <br>
+                <br>
+                <p>No #1 Apps for Apparel Stire. Find the best Apparel in the city with a single click. Get the best price, location, and facilities you can get. Be Free.</p>
+            </div>
+            <div class="column" id="myfooter2">   
+                <h2>Download Now</h2>
+                <br>
+                <br>
+                <object data="./assets/media/appstore.svg" type="image/svg+xml">
+                    <img src="./assets/media/appstore.png">
+                </object>
+                <br>
+                <br>
+                <object data="./assets/media/playstore.svg" type="image/svg+xml">
+                    <img src="./assets/media/playstore.png">
+                </object>
+            </div>
+            <div class="column" id="myfooter3">
+                <h2>Sitemap</h2>
+                <br>
+                <nav id="nav">
+                    <a href="index.html">Home</a>
+                    <a href="product.html">Product</a>
+                    <a href="form_order.html">Form Order</a>
+                </nav>
+            </div>
+            <div class="column" id="myfooter4">
+                <h2>Contact</h2>
+                <br>
+                <i class="fas fa-building"></i><p>Jl. TB. Simatupang No. 280, Cilandak, Jakarta, 12430</p>
+                <br>
+                <i class="fas fa-phone"></i><p>021-500-666</p>
+                <br>
+                <i class="fas fa-envelope"></i><p>Apparle.id</p>
+            </div>
+        </div> 
+        <div id="copyright">
+            <p>Copyright 2019. Apparel.id Team.</p>
+        </div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
