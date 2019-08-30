@@ -41,3 +41,7 @@ box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
     border-bottom-style: solid;
     border-bottom-color: #011f4b;
 }
+
+.contentwrap{
+    min-height: 100vh;
+}
