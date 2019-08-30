@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<<<<<<< HEAD
 
     <!-- meta from https://purecss.io/start/ -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,6 +15,11 @@
     <!-- link di isikan gambar! -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
+=======
+    <link rel="stylesheet" href="style.css" />
+    <!-- icon -->
+    <link rel="shortcut icon" href="./assets/media/jeans.png" type="image/x-icon">
+>>>>>>> 015783abd34b5796e73c797a86047579abf5cdb8
     <!-- font awesome -->
     <link
       rel="stylesheet"
@@ -27,6 +33,7 @@
       rel="stylesheet"
     />
     <link
+<<<<<<< HEAD
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i"
     rel="stylesheet"
 
@@ -222,5 +229,206 @@
     <!-- in the bottom .js script uikit not working FIX IT !!!! -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.8/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.8/js/uikit-icons.min.js"></script> -->
+=======
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i"
+      rel="stylesheet"
+    />
+    <title>Apparel.id</title>
+  </head>
+  <body>
+    <!-- Header-->
+    <header id="header">
+      <div class="inner">
+        <a href="./index.html" class="logo">Apparel.id</a>
+        <nav id="nav">
+          <a href="index.html">Home</a>
+          <a href="product.html">Product</a>
+          <a href="registrasi.html">Registrasi</a>
+        </nav>
+      </div>
+    </header>
+    <!-- mp3 -->
+    <div class="mp3">
+        <audio src="./assets/media/lagu.mp3" autoplay loop></audio>
+    </div>
+    <!-- Hero -->
+    <section id="hero">
+        <video src="./assets/media/video1.mp4" autoplay muted loop>Browsernya ga support HTML5 video. Update dulu ya gan.</video>
+        <div class="inner">
+            <div id="heromockup">
+                <img src="./assets/media/heromockup.png">
+            </div>
+            <div id="herodesc">
+                <div>
+                    <h1>Jeans, Chino, Cargo </h1>
+                    <p>Get the best prices on 2,000,000+ Apparel in Indonesia</p>
+                </div>
+                <br>
+                <div id="bookform">
+                    <form action="./index.html" method="POST">
+                        <div>
+                            <label for="destination">Enter a your city to check store near you</label>
+                            <br>
+                            <input id="destination" name="destination" type="text" placeholder="Jakarta, Bandung, Surabaya, etc">
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <label for="start">How size your pants ?</label>
+                            <br>
+                            <input type="text" name="programming" list="duration" placeholder="Starts from 37 up to 44">
+                            <datalist id="duration">
+                                <select name="durationopt">
+                                    <option value"0.5">44</option>
+                                    <option value"1">43</option>
+                                    <option value"2">42</option>
+                                    <option value"3">41</option>
+                                    <option value"4">40</option>
+                                    <option value"5">39</option>
+                                    <option value"10">38</option>
+                                    <option value"20">37</option>
+                                </select>
+                            </datalist>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="typeroom">Choose pants type you love</label>
+                            <br>
+                            <div id="typeroomopt">
+                                <input id="apartment" type="checkbox" name="typeroom1" value="apartment">
+                                <label for="apartment">Chino</label>
+                                <input id="condominium" type="checkbox" name="typeroom2" value="condominium">
+                                <label for="condominium">Cargo</label>
+                                <input id="kost"type="checkbox" name="typeroom3" value="kost">
+                                <label for="kost">Jeans</label>
+                                <input id="others" type="checkbox" name="typeroom4" value="others">
+                                <label for="others">Others</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="formbutton">
+                            <input type="submit" value="Search">
+                        </div>
+                    </form>
+                </div>
+                <div id="herodownload">
+                    <h3>Apparel.id</h3>
+                    <p>Find the Store nearby you.</p>
+                    <br>
+                    <object data="./assets/media/appstore.svg" type="image/svg+xml">
+                        <img src="./assets/media/appstore.png">
+                    </object>
+                    <object data="./assets/media/playstore.svg" type="image/svg+xml">
+                        <img src="./assets/media/playstore.png">
+                    </object>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="sechead">
+            <h1>Testimonials</h1>
+            <p class="beda">Some recognition from our loyal customer. You can see how much they love us.</p>
+        </div>
+        <div id="slideshow">
+            <div class="slide-wrapper">
+                <div class="slide">
+                    <img src="./assets/media/testi1.jpg">
+                    <blockquote>I now feel confident enough to find high quality tenants and manage my own properties. Apparel.id makes all of this so much easier!</blockquote>
+                    <h3>William</h3>
+                    <p>Medan Utara, Apartemen Dharmawangsa One</p>
+                </div>
+                <div class="slide">
+                    <img src="./assets/media/testi2.jpg">
+                    <blockquote>Apparel.id is the best rental service I have found. For years, I rented and had to painfully negotiate terms, sign paper contracts, and send checks to my landlords.</blockquote>
+                    <h3>Jessica</h3>
+                    <p>Jakarta Selatan, Pondok Indah Square</p>
+                </div>
+                <div class="slide">
+                    <img src="./assets/media/testi3.jpg">
+                    <blockquote>Great customer service. The team at Apparel.id was available 24/7 to walk me through the process and help me secure an incredible apartment.</blockquote>
+                    <h3>Gibran</h3>
+                    <p>Bandung Barat, HighPeak Residence</p>
+                </div>
+                <div class="slide">
+                    <img src="./assets/media/testi4.jpg">
+                    <blockquote>Apparel.id has saved me a ton of time finding great tenants and managing lease signing. Its sophisticated features help me manage my properties seamslessly and digitally!</blockquote>
+                    <h3>Funnur</h3>
+                    <p>Manado Timur, Alaya Junction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Media Coverage Bar -->
+    <section id="mediacover">
+        <div class="sechead">
+            <h1>Media Recognition</h1>
+        </div>
+        <div class="inner">
+            <div class="mediacol">
+                <a href="#"><img src="./assets/media/part1.png"></a>
+            </div>
+            <div class="mediacol">
+                <a href="#"><img src="./assets/media/part2.png"></a>
+            </div>
+            <div class="mediacol">
+                <a href="#"><img src="./assets/media/part3.png"></a>
+            </div>
+            <div class="mediacol">
+                <a href="#"><img src="./assets/media/part4.png"></a>
+            </div>
+            <div class="mediacol">
+                <a href="#"><img src="./assets/media/part5.png"></a>
+            </div>    
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="column" id="footer1">
+                <a href="./index.html" class="logo">Apparel.id</a>
+                <br>
+                <br>
+                <p>No #1 Apps for Apparel Stire. Find the best Apparel in the city with a single click. Get the best price, location, and facilities you can get. Be Free.</p>
+            </div>
+            <div class="column" id="footer2">   
+                <h2>Download Now</h2>
+                <br>
+                <br>
+                <object data="./assets/media/appstore.svg" type="image/svg+xml">
+                    <img src="./assets/media/appstore.png">
+                </object>
+                <br>
+                <br>
+                <object data="./assets/media/playstore.svg" type="image/svg+xml">
+                    <img src="./assets/media/playstore.png">
+                </object>
+            </div>
+            <div class="column" id="footer3">
+                <h2>Sitemap</h2>
+                <br>
+                <nav id="nav">
+                    <a href="index.html">Home</a>
+                    <a href="product.html">Product</a>
+                    <a href="form_order.html">Form Order</a>
+                </nav>
+            </div>
+            <div class="column" id="footer4">
+                <h2>Contact</h2>
+                <br>
+                <i class="fas fa-building"></i><p>Jl. TB. Simatupang No. 280, Cilandak, Jakarta, 12430</p>
+                <br>
+                <i class="fas fa-phone"></i><p>021-500-666</p>
+                <br>
+                <i class="fas fa-envelope"></i><p>Apparle.id</p>
+            </div>
+        </div> 
+        <div id="copyright">
+            <p>Copyright 2019. Apparel.id Team.</p>
+        </div>
+    </footer>
+>>>>>>> 015783abd34b5796e73c797a86047579abf5cdb8
   </body>
 </html>
