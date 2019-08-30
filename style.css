@@ -378,3 +378,76 @@ input {
   border-top: 3px solid grey;
   clear: both;
 }
+/* Testimonials  */
+.slide img {
+  border-radius: 45px;
+}
+#testimonials {
+  background-color: #ffffff;
+  padding: 50px 0 20px 0;
+}
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+  animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+  text-align: center;
+}
+
+.slide img {
+  width: 150px;
+  height: 150px;
+  margin: 30px;
+}
+
+.slide blockquote {
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.slide h3 {
+  font-weight: 300;
+  font-size: 30px;
+  color: blue;
+}
+
+@-webkit-keyframes slide {
+  20% {
+    margin-left: 0px;
+  }
+  30% {
+    margin-left: -728px;
+  }
+  50% {
+    margin-left: -728px;
+  }
+  60% {
+    margin-left: -1456px;
+  }
+  70% {
+    margin-left: -1456px;
+  }
+  80% {
+    margin-left: -2184px;
+  }
+  90% {
+    margin-left: -2184px;
+  }
+}
+.beda {
+  color: #005b96;
+}
