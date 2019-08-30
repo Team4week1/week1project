@@ -126,7 +126,7 @@
   
   #footer i {
     display: inline-block;
-    float: left;
+    float:left;
     margin-right: 10px;
     line-height: 30px;
   }
